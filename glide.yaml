@@ -1,0 +1,12 @@
+package: rpc
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: github.com/silenceper/pool
+- package: golang.org/x/net
+  repo: https://github.com/golang/net.git
+  vcs: git
+- package: google.golang.org/grpc
+  repo: https://github.com/grpc/grpc-go 
+  vcs: git
